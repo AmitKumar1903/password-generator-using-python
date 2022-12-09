@@ -31,7 +31,6 @@ def password_generator():
         if upper_count >= 4 and lower_count >= 4 and num_count >= 1 and special_count >= 1:
             p="The Password is: "+password
             st.success(p)
-            #st.header("The Password is:  {}".format(password))
             st.markdown("***")
             st.write("Developed by:")
             st.write("*Amit Kumar* :sunglasses:")
